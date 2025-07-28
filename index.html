@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Paleozoic Era</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+
+  <div id="title">
+    <h1>Geological Time Scale: Summarized</h1>
+    <h2>Late Paleozoic Era: Carboniferous & Permian</h2>
+
+    <img id="logo" src="grouplogo.png" alt="Group Logo">
+    <h5>A Simple Educational Website<br>
+      Group 3 (11-NUMBERS) Presentation</h5>
+
+    <h4>What would you like to find out more?</h4>
+    <div>
+      <button onclick="toggleBtn('carboniferous')">Carboniferous Period</button>
+      <div id="carboniferous" class="popup-period">
+        <button onclick="toggleBtn('popupDesc1')">What is the Carboniferous Period?</button><br>
+        <div id="popupDesc1" class="popup-box">
+          <ul>
+            <li>The Carboniferous Period was a time of dramatic changes in Earth's environment and life.</li>
+            <li>Famous for its vast swampy forests</li>
+            <li>Known for its thick coal deposits that formed over millions of years</li>
+            <li>Named after the Latin word "carbo" which means "coal" or "coal-bearing"</li>
+          </ul>
+        </div>
+
+        <button onclick="toggleBtn('popupDesc2')">What was the timeframe/range?</button><br>
+        <div id="popupDesc2" class="popup-box">
+          <ul>
+            <li>Started 359.2 million years ago</li>
+            <li>Ended 299 million years ago</li>
+            <li>Lasted 60 million years</li>
+          </ul>
+        </div>
+
+        <button onclick="toggleBtn('popupDesc3')">What was the climate like?</button><br>
+        <div id="popupDesc3" class="popup-box">
+          <ul>
+            <li>Warm and humid by Early Carboniferous</li>
+            <li>Widespread tropical swamps</li>
+            <li>Glaciers formed by Late Carboniferous (causing climate cooling)
+          </ul>
+        </div>
+
+        <button onclick="toggleBtn('popupDesc4')">What plants lived during this time?</button><br>
+        <div id="popupDesc4" class="popup-box">
+          <ul>
+            <li>Clubmosses</li>
+            <li>Horsetails</li>
+            <li>Ferns</li>
+            <li>Pteridospermss</li>
+            <li>Cordaites</li>
+          </ul>
+        </div>
+
+        <button onclick="toggleBtn('popupDesc5')">What common animals lived during this time?</button><br>
+        <div id="popupDesc5" class="popup-box">
+          <ul>
+            <li>Anthropods/Insect</li>
+            <ul>
+              <li>Anthropleura</li>
+              <li>Meganeura</li>
+              <li>Pulmonoscorpius</li>
+            </ul>
+            <li>Reptiles</li>
+            <ul>
+              <li>Hylonomus</li>
+              <li>Archaeothyris</li>
+            </ul>
+            <li>Amphibians</li>
+            <ul>
+              <li>Eryops</li>
+              <li>Tulerpeton</li>
+            </ul>
+          </ul>
+        </div>
+
+        <button onclick="toggleBtn('popupDesc6')">What are the subperiods of Carboniferous Period?</button><br>
+        <div id="popupDesc6" class="popup-box">
+          <button onclick="toggleBtn('miss')">Mississippian</button><br>
+          <div id="miss" class="popup-box">
+            <ul>
+              <li>Also known as "Early Carboniferous</li>
+              <li>Started 359.2 million years ago</li>
+              <li>Ended 323.2 million years ago</li>
+              <li>Named after the Mississippi River</li>
+              <li>Known for Limestone layer deposits</li>
+              <li>Warm and humid</li>
+            </ul>
+          </div>
+
+          <button onclick="toggleBtn('penn')">Pennsylvanian</button>
+          <div id="penn" class="popup-box">
+            <ul>
+              <li>Also known as "Late Carboniferous</li>
+              <li>Started 323.2 million years ago</li>
+              <li>Ended 299 million years ago</li>
+              <li>Named after the Pennsylvania River</li>
+              <li>Known for coal deposits</li>
+              <li>Warm and humid, but fluctuating</li>
+            </ul>
+          </div>
+        </div>
+
+        <button onclick="toggleBtn('popupDesc7')">World Map (Carboniferous)</button><br>
+        <div id="popupDesc7" class="popup-box">
+          <img id="earthmap" src="Mollweide_Paleographic_Map_of_Earth,_330_Ma_(Serpukhovian_Age).png"
+            alt="Carboniferous World Map">
+          <p>Earth, as it was 330 million years ago.</p>
+          <p>Source:</p><a href="https://en.wikipedia.org/wiki/Carboniferous">Wikipedia (Carboniferous Period)</a>
+        </div>
+      </div>
+
+      <br>
+
+      <!-- Permian Period na to talaga -->
+
+      <button onclick="toggleBtn('permian')">Permian Period</button>
+      <div id="permian" class="popup-period">
+        <button onclick="toggleBtn('popupDesc11')">What is the Permian Period?</button><br>
+        <div id="popupDesc11" class="popup-box">
+          <ul>
+            <li>The Permian Period was the last period within the Paleozoic Era</li>
+            <li>Ended with the Permian-Triassic extinction event</li>
+            <li>Named after the Perm Region in Russia</li>
+
+          </ul>
+        </div>
+
+        <button onclick="toggleBtn('popupDesc22')">What was the timeframe/range?</button><br>
+        <div id="popupDesc22" class="popup-box">
+          <ul>
+            <li>Started 298.9 million years ago</li>
+            <li>Ended 252.17 million years ago</li>
+            <li>Lasted 46.73 million years</li>
+          </ul>
+        </div>
+
+        <button onclick="toggleBtn('popupDesc33')">Who named it?</button><br>
+        <div id="popupDesc33" class="popup-box">
+          <ul>
+            <li>Sir Roderick Impey Murchison (Scottish Geologist)</li>
+            <li>Coined back in 1841</li>
+            <li>Studied the geology of the Perm Region</li>
+            <li>He found distictive rock layers under the region</li><br>
+
+            <img id="picture" src="Sir_Roderick_Impey_Murchison,_1st_Bt_by_Stephen_Pearce.jpg"
+              alt="Sir Roderick Impey Murchison">
+            <p>Sir Roderick Impey Murchison (1856)</p>
+          </ul>
+        </div>
+
+        <button onclick="toggleBtn('popupDesc44')">What was the climate like?</button><br>
+        <div id="popupDesc44" class="popup-box">
+          <ul>
+            <li>Cooler and seasonal by Early Permian</li>
+            <li>Became much hotter by the Middle Permian</li>
+            <li>Hot and dry by Late Permian due to the <a href="https://en.wikipedia.org/wiki/Siberian_Traps">Siberian
+                Traps</a>
+          </ul>
+        </div>
+
+        <button onclick="toggleBtn('popupDesc55')">What plants lived during this time?</button><br>
+        <div id="popupDesc55" class="popup-box">
+          <ul>
+            <li>Clubmosses</li>
+            <li>Horsetails</li>
+            <li>Ferns</li>
+            <li>Ginkgos</li>
+            <li>Cycads</li>
+          </ul>
+        </div>
+
+        <button onclick="toggleBtn('popupDesc66')">What common animals lived during this time?</button><br>
+        <div id="popupDesc66" class="popup-box">
+          <ul>
+            <li>Anthropods/Insect</li>
+            <ul>
+              <li>Beetles</li>
+              <li>Dragonflies</li>
+              <li>Cockroaches</li>
+            </ul>
+            <li>Reptiles</li>
+            <ul>
+              <li>Captorhinids</li>
+            </ul>
+            <li>Amphibians</li>
+            <ul>
+              <li>Eryops</li>
+              <li>Tulerpeton</li>
+            </ul>
+            <li>Invertebrates</li>
+            <ul>
+              <li>Brachiopods</li>
+              <li>Trilobites</li>
+              <li>Gastropods</li>
+            </ul>
+          </ul>
+        </div>
+
+        <button onclick="toggleBtn('popupDesc77')">World Map (Permian)</button><br>
+        <div id="popupDesc77" class="popup-box">
+          <img id="earthmap" src="Mollweide_Paleographic_Map_of_Earth,_275_Ma_(Kungurian_Age).png"
+            alt="Carboniferous World Map">
+          <p>Earth, as it was 275 million years ago.</p>
+          <p>Source:</p><a href="https://en.wikipedia.org/wiki/Permian">Wikipedia (Permian Period)</a>
+        </div>
+      </div>
+
+      <br>
+
+      <!-- siguro masarap si Trilobites -->
+
+      <button onclick="toggleBtn('extinction')">The Great Dying (End-Permian Extinction)</button>
+      <div id="extinction" class="popup-period">
+        <button onclick="toggleBtn('popupDesc111')">What is "The Great Dying?"</button><br>
+        <div id="popupDesc111" class="popup-box">
+          <ul>
+            <li>The Great Dying was the largest mass extinction in Earth's history</li>
+            <li>Also known as the Permian-Triassic extinction event</li>
+            <li>Occurred at the end of the Permian Period</li>
+            <li>Caused by the Siberian Traps</li>
+            <li>96% of all marine species went extinct</li>
+            <li>70% of terrestrial vertebrate species went extinct</li>
+          </ul>
+        </div>
+
+        <button onclick="toggleBtn('popupDesc222')">What caused "The Great Dying?"</button><br>
+        <div id="popupDesc222" class="popup-box">
+          <ul>
+            <li>Volcanic eruptions (Siberian Traps)</li>
+            <li>Large-scale wildfires</li>
+            <li>Acid rain</li>
+            <li>Greenhouse effect</li>
+          </ul>
+        </div>
+
+        <button onclick="toggleBtn('popupDesc333')">What was the timeframe/range?</button><br>
+        <div id="popupDesc333" class="popup-box">
+          <ul>
+            <li>Started 252.17 million years ago</li>
+            <li>Ended 251.902 million years ago</li>
+            <li>Lasted 170,000 years</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- boundary -->
+
+    <button onclick="toggleBtn('majorEvent')">Major Events</button>
+    <div id="majorEvent" class="popup-period">
+      <button onclick="toggleBtn('popupDesc1111')">What are the major events of the Carboniferous Period?</button><br>
+      <div id="popupDesc1111" class="popup-box">
+        <ul>
+          <li>Coal forests flourish</li>
+          <li>Amphibian Explosion (population)</li>
+          <li>Existence of giant insects and anthropods</li>
+          <li>First <a href="https://en.wikipedia.org/wiki/Amniote">Amniotes</a> Evolve</li>
+          <li>Appearance of the first Reptiles</li>
+          <li>Glaciation begins in <a href="https://en.wikipedia.org/wiki/Gondwana">Gondwana</a></li>
+        </ul>
+      </div>
+      <button onclick="toggleBtn('popupDesc2222')">What are the major events of the Permian Period?</button><br>
+      <div id="popupDesc2222" class="popup-box">
+        <ul>
+          <li>Formation of <a href="https://en.wikipedia.org/wiki/Pangaea">Pangaea</a></li>
+          <li>Climate transforms</li>
+          <li>Collapse of Coal forests</li>
+          <li><a href="https://en.wikipedia.org/wiki/Synapsida">Synapsid</a> domination</li>
+          <li>Insect evolution</li>
+          <li>End-Permian Extinction</li>
+        </ul>
+      </div>
+    </div>
+
+    <br>
+
+    <!-- boundary -->
+
+    <button onclick="toggleBtn('sources')">Sources</button>
+    <div id="sources" class="popup-period">
+      <p><strong>References</strong></p>
+      <p>Britannica, T. Editors of Encyclopaedia. (2023). <em>Carboniferous Period</em>. Encyclopedia Britannica. <a href="https://www.britannica.com/science/Carboniferous-Period">https://www.britannica.com/science/Carboniferous-Period</a></p>
+      
+      <p>Britannica, T. Editors of Encyclopaedia. (2023). <em>Permian Period</em>. Encyclopedia Britannica. <a href="https://www.britannica.com/science/Permian-Period">https://www.britannica.com/science/Permian-Period</a></p>
+      
+      <p>Wikipedia contributors. (2024, December). Carboniferous. In <em>Wikipedia, The Free Encyclopedia</em>. <a href="https://en.wikipedia.org/wiki/Carboniferous">https://en.wikipedia.org/wiki/Carboniferous</a></p>
+      
+      <p>Wikipedia contributors. (2024, December). End-Permian extinction event. In <em>Wikipedia, The Free Encyclopedia</em>. <a href="https://en.wikipedia.org/wiki/End-Permian_extinction_event">https://en.wikipedia.org/wiki/End-Permian_extinction_event</a></p>
+      
+      <p>Wikipedia contributors. (2024, December). Permian. In <em>Wikipedia, The Free Encyclopedia</em>. <a href="https://en.wikipedia.org/wiki/Permian">https://en.wikipedia.org/wiki/Permian</a></p>
+      
+      <p>Wikipedia contributors. (2024, December). Roderick Murchison. In <em>Wikipedia, The Free Encyclopedia</em>. <a href="https://en.wikipedia.org/wiki/Roderick_Murchison">https://en.wikipedia.org/wiki/Roderick_Murchison</a></p>
+    </div>
+
+    <br>
+
+    <!-- boundary -->
+
+    <button onclick="toggleBtn('credits')">Details/Credits</button>
+    <div id="credits" class="popup-period">
+      <p><strong>Coder/Leader</strong>: Joeneth Patrick May A. Lanawan</p>
+      <p><strong>Designer/Assist. Leader</strong>: Precious Dennise Benzon</p>
+      <p><strong>Team Size</strong>: 2 (Duo)</p>
+      <p><strong>Grade & Section</strong>: 11-NUMBERS</p>
+      <p><strong>Subject</strong>: Earth and Life Science</p>
+      <p><strong>Purpose</strong>: Group Presentation ICT Website Demo</p>
+      <p><strong>Date of Creation</strong>: July 27, 2025</p>
+      <p><strong>Time</strong>: 4 hours (coding), 2 hours & 50 mins (designing)</p>
+    </div>
+
+
+
+    <script src="script.js">
+    </script>
+
+</body>
+
+</html>
